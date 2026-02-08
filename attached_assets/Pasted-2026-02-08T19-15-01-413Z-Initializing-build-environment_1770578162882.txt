@@ -1,0 +1,43 @@
+2026-02-08T19:15:01.413Z	Initializing build environment...
+2026-02-08T19:15:01.413Z	Initializing build environment...
+2026-02-08T19:15:02.914Z	Success: Finished initializing build environment
+2026-02-08T19:15:05.327Z	Cloning repository...
+2026-02-08T19:15:09.661Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2026-02-08T19:15:09.662Z	Restoring from dependencies cache
+2026-02-08T19:15:09.664Z	Restoring from build output cache
+2026-02-08T19:15:09.800Z	Installing project dependencies: npm clean-install --progress=false
+2026-02-08T19:15:15.333Z	npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+2026-02-08T19:15:15.428Z	npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+2026-02-08T19:15:21.130Z	
+2026-02-08T19:15:21.133Z	added 498 packages, and audited 499 packages in 11s
+2026-02-08T19:15:21.134Z	
+2026-02-08T19:15:21.134Z	48 packages are looking for funding
+2026-02-08T19:15:21.134Z	  run `npm fund` for details
+2026-02-08T19:15:21.151Z	
+2026-02-08T19:15:21.151Z	4 moderate severity vulnerabilities
+2026-02-08T19:15:21.151Z	
+2026-02-08T19:15:21.151Z	To address all issues (including breaking changes), run:
+2026-02-08T19:15:21.151Z	  npm audit fix --force
+2026-02-08T19:15:21.152Z	
+2026-02-08T19:15:21.152Z	Run `npm audit` for details.
+2026-02-08T19:15:21.365Z	Executing user build command: npm run build
+2026-02-08T19:15:22.055Z	
+2026-02-08T19:15:22.055Z	> bible-trivia-show@1.0.0 build
+2026-02-08T19:15:22.055Z	> tsx script/build.ts
+2026-02-08T19:15:22.055Z	
+2026-02-08T19:15:23.849Z	building client...
+2026-02-08T19:15:23.891Z	failed to load config from /opt/buildhome/repo/vite.config.ts
+2026-02-08T19:15:23.892Z	Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@replit/vite-plugin-runtime-error-modal' imported from /opt/buildhome/repo/node_modules/.vite-temp/vite.config.ts.timestamp-1770578123877-6cf80f32e9e7.mjs
+2026-02-08T19:15:23.892Z	    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+2026-02-08T19:15:23.892Z	    at packageResolve (node:internal/modules/esm/resolve:768:81)
+2026-02-08T19:15:23.892Z	    at moduleResolve (node:internal/modules/esm/resolve:854:18)
+2026-02-08T19:15:23.892Z	    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+2026-02-08T19:15:23.892Z	    at nextResolve (node:internal/modules/esm/hooks:748:28)
+2026-02-08T19:15:23.892Z	    at resolveBase (file:///opt/buildhome/repo/node_modules/tsx/dist/esm/index.mjs?1770578122213:2:3744)
+2026-02-08T19:15:23.892Z	    at resolveDirectory (file:///opt/buildhome/repo/node_modules/tsx/dist/esm/index.mjs?1770578122213:2:4243)
+2026-02-08T19:15:23.892Z	    at resolveTsPaths (file:///opt/buildhome/repo/node_modules/tsx/dist/esm/index.mjs?1770578122213:2:4984)
+2026-02-08T19:15:23.892Z	    at resolve (file:///opt/buildhome/repo/node_modules/tsx/dist/esm/index.mjs?1770578122213:2:5361)
+2026-02-08T19:15:23.892Z	    at nextResolve (node:internal/modules/esm/hooks:748:28) {
+2026-02-08T19:15:23.892Z	  code: 'ERR_MODULE_NOT_FOUND'
+2026-02-08T19:15:23.892Z	}
+2026-02-08T19:15:23.941Z	Failed: error occurred while running build command
