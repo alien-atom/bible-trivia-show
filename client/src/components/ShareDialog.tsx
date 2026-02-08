@@ -12,17 +12,31 @@ interface ShareDialogProps {
   totalQuestions: number;
   percentage: number;
   category?: string;
+  gameMode?: 'quiz' | 'grid' | 'battle';
+  extraInfo?: string;
 }
 
-export function ShareDialog({ open, onOpenChange, score, totalQuestions, percentage, category }: ShareDialogProps) {
+export function ShareDialog({ open, onOpenChange, score, totalQuestions, percentage, category, gameMode = 'quiz', extraInfo }: ShareDialogProps) {
   const { toast } = useToast();
   const [copied, setCopied] = useState(false);
 
   const appUrl = typeof window !== 'undefined' ? window.location.origin : 'https://bibletriviashow.com';
-  
-  const shareText = `I just scored ${score} points (${percentage}% accuracy) on Clash of Sages Bible Trivia! Can you beat my score? Test your biblical knowledge now!`;
-  
-  const shareTextWithEmojis = `${percentage >= 80 ? '🏆' : percentage >= 60 ? '⭐' : '📖'} I scored ${score} points (${percentage}%) on Clash of Sages Bible Trivia! ${percentage === 100 ? '💯 Perfect score!' : ''} Challenge me: ${appUrl}`;
+
+  const modeLabel = gameMode === 'grid' ? 'Bible Trivia Grid Game' : gameMode === 'battle' ? 'Bible Trivia Battle' : 'Bible Trivia Show';
+  const emoji = percentage >= 80 ? '🏆' : percentage >= 60 ? '⭐' : '📖';
+  const perfectTag = percentage === 100 ? '💯 Perfect score!' : '';
+
+  const shareText = gameMode === 'grid'
+    ? `I scored ${score} points in the ${modeLabel}!${extraInfo ? ` ${extraInfo}` : ''} Can you beat my score? Test your biblical knowledge now!`
+    : gameMode === 'battle'
+    ? `I ${extraInfo || 'competed'} in a ${modeLabel} with ${score} points! Can you do better? Challenge me now!`
+    : `I just scored ${score} points (${percentage}% accuracy) on ${modeLabel}! Can you beat my score? Test your biblical knowledge now!`;
+
+  const shareTextWithEmojis = gameMode === 'grid'
+    ? `${emoji} I scored ${score} points in the ${modeLabel}!${extraInfo ? ` ${extraInfo}` : ''} ${perfectTag} Challenge me: ${appUrl}/grid-game`
+    : gameMode === 'battle'
+    ? `⚔️ I ${extraInfo || 'competed'} in a ${modeLabel} with ${score} points! ${perfectTag} Challenge me: ${appUrl}/battle`
+    : `${emoji} I scored ${score} points (${percentage}%) on ${modeLabel}! ${perfectTag} Challenge me: ${appUrl}`;
 
   const shareLinks = {
     twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTextWithEmojis)}`,
@@ -34,7 +48,7 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Clash of Sages - My Score',
+          title: `${modeLabel} - My Score`,
           text: shareText,
           url: appUrl,
         });
@@ -87,6 +101,18 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
     },
   ];
 
+  const summaryLabel = gameMode === 'grid'
+    ? `${score} pts`
+    : gameMode === 'battle'
+    ? `${score} pts`
+    : `${score} pts`;
+
+  const summaryDetail = gameMode === 'grid'
+    ? (extraInfo || `${modeLabel}`)
+    : gameMode === 'battle'
+    ? `${extraInfo || 'Battle completed'}`
+    : `${percentage}% accuracy on ${totalQuestions} questions`;
+
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-md">
@@ -106,8 +132,8 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
             animate={{ scale: 1, opacity: 1 }}
             className="p-4 rounded-2xl bg-gradient-to-r from-yellow-50 to-amber-50 dark:from-yellow-900/30 dark:to-amber-900/30 border border-yellow-200 dark:border-yellow-700 text-center"
           >
-            <div className="text-4xl font-black text-yellow-600 mb-1">{score} pts</div>
-            <div className="text-sm text-muted-foreground">{percentage}% accuracy on {totalQuestions} questions</div>
+            <div className="text-4xl font-black text-yellow-600 mb-1">{summaryLabel}</div>
+            <div className="text-sm text-muted-foreground">{summaryDetail}</div>
           </motion.div>
 
           {'share' in navigator && (

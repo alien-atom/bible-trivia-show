@@ -6,8 +6,9 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
 import { getQuestionsForGrid, type GridQuestion } from '@/lib/grid-game-questions';
 import { useAudio } from '@/context/AudioContext';
-import { Trophy, Users, Play, ArrowLeft, Crown, Star, Zap, RotateCcw, X, Check, ArrowRight, Grid3X3 } from 'lucide-react';
+import { Trophy, Users, Play, ArrowLeft, Crown, Star, Zap, RotateCcw, X, Check, ArrowRight, Grid3X3, Share2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { ShareDialog } from '@/components/ShareDialog';
 
 interface Player {
   name: string;
@@ -51,6 +52,7 @@ export default function GridGame() {
   const [stealPlayerIndex, setStealPlayerIndex] = useState<number | null>(null);
   const [stealAnswer, setStealAnswer] = useState<string | null>(null);
   const [showStealAnswer, setShowStealAnswer] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
 
   const initializeGrid = useCallback(() => {
     const { easy, medium, hard } = getQuestionsForGrid();
@@ -372,6 +374,14 @@ export default function GridGame() {
                   <RotateCcw className="w-5 h-5" /> Play Again
                 </Button>
                 <Button
+                  data-testid="button-share-grid"
+                  variant="outline"
+                  className="py-6 px-6"
+                  onClick={() => setShareOpen(true)}
+                >
+                  <Share2 className="w-5 h-5" />
+                </Button>
+                <Button
                   data-testid="button-go-home"
                   variant="outline"
                   className="py-6 px-6"
@@ -383,6 +393,16 @@ export default function GridGame() {
             </CardContent>
           </Card>
         </motion.div>
+
+        <ShareDialog
+          open={shareOpen}
+          onOpenChange={setShareOpen}
+          score={winner.score}
+          totalQuestions={questionsPlayed}
+          percentage={Math.round((winner.score / (grid.reduce((sum, t) => sum + t.points, 0) || 1)) * 100)}
+          gameMode="grid"
+          extraInfo={`${winner.name} won against ${sortedPlayers.length - 1} player${sortedPlayers.length > 2 ? 's' : ''}!`}
+        />
       </div>
     );
   }

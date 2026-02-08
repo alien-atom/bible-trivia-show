@@ -9,8 +9,9 @@ import { CATEGORIES } from '@/lib/mock-data';
 import { useLocation } from 'wouter';
 import { io, Socket } from 'socket.io-client';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Swords, Trophy, Clock, Zap, Crown, Shield, Flame, Users, XCircle, CheckCircle, Loader2, ArrowRight, Sparkles } from 'lucide-react';
+import { Swords, Trophy, Clock, Zap, Crown, Shield, Flame, Users, XCircle, CheckCircle, Loader2, ArrowRight, Sparkles, Share2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
+import { ShareDialog } from '@/components/ShareDialog';
 
 interface BattleQuestion {
   id: string;
@@ -49,6 +50,7 @@ export default function Battle() {
   const [, setLocation] = useLocation();
   const [socket, setSocket] = useState<Socket | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('genesis');
+  const [shareOpen, setShareOpen] = useState(false);
   const lastTimeRef = useRef<number>(15);
   const [battleState, setBattleState] = useState<BattleState>({
     status: 'idle',
@@ -612,6 +614,15 @@ export default function Battle() {
                   </Button>
                   <Button 
                     variant="outline"
+                    onClick={() => setShareOpen(true)}
+                    size="lg"
+                    data-testid="button-share-battle"
+                  >
+                    <Share2 className="w-5 h-5 mr-2" />
+                    Share
+                  </Button>
+                  <Button 
+                    variant="outline"
                     onClick={() => setLocation('/')}
                     size="lg"
                     data-testid="button-go-home"
@@ -621,6 +632,16 @@ export default function Battle() {
                 </div>
               </CardContent>
             </Card>
+
+            <ShareDialog
+              open={shareOpen}
+              onOpenChange={setShareOpen}
+              score={battleState.myScore}
+              totalQuestions={battleState.totalRounds}
+              percentage={Math.round((battleState.myScore / ((battleState.myScore + battleState.opponentScore) || 1)) * 100)}
+              gameMode="battle"
+              extraInfo={battleState.result === 'win' ? 'won' : battleState.result === 'lose' ? 'fought hard' : 'tied'}
+            />
           </motion.div>
         )}
       </AnimatePresence>
