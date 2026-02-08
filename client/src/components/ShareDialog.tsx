@@ -18,7 +18,7 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
   const { toast } = useToast();
   const [copied, setCopied] = useState(false);
 
-  const appUrl = typeof window !== 'undefined' ? window.location.origin : 'https://clashofsages.replit.app';
+  const appUrl = typeof window !== 'undefined' ? window.location.origin : 'https://bibletriviashow.com';
   
   const shareText = `I just scored ${score} points (${percentage}% accuracy) on Clash of Sages Bible Trivia! Can you beat my score? Test your biblical knowledge now!`;
   
