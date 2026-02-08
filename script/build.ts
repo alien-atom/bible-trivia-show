@@ -2,7 +2,7 @@ import { build as esbuild } from "esbuild";
 import { build as viteBuild } from "vite";
 import { rm, readFile } from "fs/promises";
 
-const isWorkerBuild = process.env.BUILD_TARGET === "worker";
+const isWorkerBuild = process.env.BUILD_TARGET !== "server";
 
 const allowlist = [
   "@google/generative-ai",
