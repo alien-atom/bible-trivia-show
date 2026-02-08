@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gen_001_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 1,
+    "category": "Creation",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "On which day did God create light?",
+    "choices": ["Day 1", "Day 2", "Day 3", "Day 4"],
+    "answer": "Day 1",
+    "verse": "Genesis 1:3",
+    "explanation": "God created light on the first day by His spoken command."
+  },
+  {
+    "id": "gen_001_02",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 1,
+    "category": "Creation",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "What did God create on the fourth day?",
+    "choices": ["Animals", "Land", "Sun, moon, and stars", "Birds"],
+    "answer": "Sun, moon, and stars",
+    "verse": "Genesis 1:14–19",
+    "explanation": "The heavenly lights were created to mark seasons and days."
+  },
+  {
+    "id": "gen_002_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 2,
+    "category": "Creation",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "From what did God form the man?",
+    "choices": ["Water", "Dust of the ground", "Clay", "Stone"],
+    "answer": "Dust of the ground",
+    "verse": "Genesis 2:7",
+    "explanation": "God formed man from the dust and breathed life into him."
+  },
+  {
+    "id": "gen_003_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 3,
+    "category": "Fall",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Which tree were Adam and Eve forbidden to eat from?",
+    "choices": ["Tree of Life", "Tree of Knowledge of Good and Evil", "Olive Tree", "Fig Tree"],
+    "answer": "Tree of Knowledge of Good and Evil",
+    "verse": "Genesis 2:17",
+    "explanation": "God commanded them not to eat from this tree."
+  },
+  {
+    "id": "gen_006_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 6,
+    "category": "Flood",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Why did God decide to send the flood?",
+    "choices": ["Overpopulation", "Human wickedness", "Lack of faith", "Idolatry only"],
+    "answer": "Human wickedness",
+    "verse": "Genesis 6:5",
+    "explanation": "God saw that human evil had become widespread on the earth."
+  },
+
+  { "id": "gen_009_01", "collection": "Old Testament", "book": "Genesis", "chapter": 9, "category": "Covenants", "difficulty": "easy", "type": "multiple-choice", "question": "What sign did God give as a covenant with Noah?", "choices": ["A star", "A rainbow", "Fire", "An altar"], "answer": "A rainbow", "verse": "Genesis 9:13", "explanation": "The rainbow was a sign of God’s promise." },
+
+  { "id": "gen_037_01", "collection": "Old Testament", "book": "Genesis", "chapter": 37, "category": "Joseph Narrative", "difficulty": "easy", "type": "multiple-choice", "question": "What item did Jacob give Joseph that caused jealousy?", "choices": ["A ring", "A staff", "A special coat", "Sandals"], "answer": "A special coat", "verse": "Genesis 37:3", "explanation": "The coat symbolized Jacob’s favor toward Joseph." },
+
+  { "id": "exo_003_01", "collection": "Old Testament", "book": "Exodus", "chapter": 3, "category": "Moses", "difficulty": "easy", "type": "multiple-choice", "question": "Where did God speak to Moses from the burning bush?", "choices": ["Mount Sinai", "Mount Horeb", "Mount Nebo", "Mount Carmel"], "answer": "Mount Horeb", "verse": "Exodus 3:1–2", "explanation": "God appeared to Moses while he tended sheep." },
+
+  { "id": "exo_007_01", "collection": "Old Testament", "book": "Exodus", "chapter": 7, "category": "Plagues", "difficulty": "easy", "type": "multiple-choice", "question": "What was the first plague in Egypt?", "choices": ["Frogs", "Blood", "Locusts", "Darkness"], "answer": "Blood", "verse": "Exodus 7:20", "explanation": "The Nile was turned into blood." },
+
+  { "id": "exo_014_01", "collection": "Old Testament", "book": "Exodus", "chapter": 14, "category": "Red Sea", "difficulty": "easy", "type": "multiple-choice", "question": "How did Israel cross the Red Sea?", "choices": ["By boat", "On dry ground", "By bridge", "Swimming"], "answer": "On dry ground", "verse": "Exodus 14:22", "explanation": "God parted the waters so Israel crossed safely." },
+
+  { "id": "lev_019_01", "collection": "Old Testament", "book": "Leviticus", "chapter": 19, "category": "Holiness Code", "difficulty": "medium", "type": "multiple-choice", "question": "Why were the Israelites commanded to be holy?", "choices": ["Because of the law", "Because God is holy", "To impress nations", "To gain blessings"], "answer": "Because God is holy", "verse": "Leviticus 19:2", "explanation": "God’s holiness sets the standard." },
+
+  { "id": "num_014_01", "collection": "Old Testament", "book": "Numbers", "chapter": 14, "category": "Rebellion", "difficulty": "medium", "type": "multiple-choice", "question": "Why did Israel wander in the wilderness for forty years?", "choices": ["Lack of supplies", "Disobedience", "Poor leadership", "War"], "answer": "Disobedience", "verse": "Numbers 14:33–34", "explanation": "Israel refused to trust God." },
+
+  { "id": "deu_006_01", "collection": "Old Testament", "book": "Deuteronomy", "chapter": 6, "category": "Covenant Renewal", "difficulty": "easy", "type": "multiple-choice", "question": "What statement is known as the Shema?", "choices": ["Keep the Sabbath", "The Lord is one", "Honor your parents", "Love your neighbor"], "answer": "The Lord is one", "verse": "Deuteronomy 6:4", "explanation": "The Shema affirms Israel’s devotion to God." },
+
+  { "id": "jos_006_01", "collection": "Old Testament", "book": "Joshua", "chapter": 6, "category": "Battles", "difficulty": "easy", "type": "multiple-choice", "question": "Which city’s walls fell after Israel marched around them?", "choices": ["Ai", "Jericho", "Hebron", "Bethel"], "answer": "Jericho", "verse": "Joshua 6:20", "explanation": "God gave Israel victory at Jericho." },
+
+  { "id": "jud_006_01", "collection": "Old Testament", "book": "Judges", "chapter": 6, "category": "Major Judges", "difficulty": "easy", "type": "multiple-choice", "question": "Which judge defeated the Midianites?", "choices": ["Samson", "Gideon", "Deborah", "Jephthah"], "answer": "Gideon", "verse": "Judges 6:14", "explanation": "God chose Gideon to deliver Israel." },
+
+  { "id": "rut_001_01", "collection": "Old Testament", "book": "Ruth", "chapter": 1, "category": "Loyalty", "difficulty": "easy", "type": "multiple-choice", "question": "Who said, 'Where you go I will go'?", "choices": ["Naomi", "Ruth", "Orpah", "Boaz"], "answer": "Ruth", "verse": "Ruth 1:16", "explanation": "Ruth showed loyalty to Naomi." },
+
+  { "id": "1sa_017_01", "collection": "Old Testament", "book": "1 Samuel", "chapter": 17, "category": "David’s Anointing", "difficulty": "easy", "type": "multiple-choice", "question": "Who did David defeat with a sling?", "choices": ["Saul", "Goliath", "Jonathan", "Abner"], "answer": "Goliath", "verse": "1 Samuel 17:49", "explanation": "David trusted God for victory." },
+
+  { "id": "2sa_007_01", "collection": "Old Testament", "book": "2 Samuel", "chapter": 7, "category": "Covenant with David", "difficulty": "medium", "type": "multiple-choice", "question": "What did God promise David?", "choices": ["Riches", "Peace", "An everlasting kingdom", "Long life"], "answer": "An everlasting kingdom", "verse": "2 Samuel 7:16", "explanation": "God promised David’s dynasty would endure." },
+
+  { "id": "psa_023_01", "collection": "Old Testament", "book": "Psalms", "chapter": 23, "category": "Praise", "difficulty": "easy", "type": "multiple-choice", "question": "Who is described as a shepherd in Psalm 23?", "choices": ["David", "Moses", "The Lord", "Solomon"], "answer": "The Lord", "verse": "Psalm 23:1", "explanation": "The Lord is portrayed as a caring shepherd." },
+
+  { "id": "pro_003_01", "collection": "Old Testament", "book": "Proverbs", "chapter": 3, "category": "Wisdom Principles", "difficulty": "easy", "type": "multiple-choice", "question": "What should be trusted rather than one's own understanding?", "choices": ["Strength", "Wealth", "The Lord", "Knowledge"], "answer": "The Lord", "verse": "Proverbs 3:5", "explanation": "Believers are encouraged to trust God fully." }
+]

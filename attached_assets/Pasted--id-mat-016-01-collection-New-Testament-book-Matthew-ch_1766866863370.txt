@@ -1,0 +1,333 @@
+[
+  {
+    "id": "mat_016_01",
+    "collection": "New Testament",
+    "book": "Matthew",
+    "chapter": 16,
+    "category": "Identity of Jesus",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who declares Jesus to be the Messiah?",
+    "choices": ["Peter", "John", "James", "Andrew"],
+    "answer": "Peter",
+    "verse": "Matthew 16:16",
+    "explanation": "Peter acknowledges Jesus as the Christ, the Son of the living God."
+  },
+  {
+    "id": "mat_017_01",
+    "collection": "New Testament",
+    "book": "Matthew",
+    "chapter": 17,
+    "category": "Miracles",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Which event shows Jesus’ glory on the mountain?",
+    "choices": [
+      "The Sermon on the Mount",
+      "The Transfiguration",
+      "Healing a blind man",
+      "Calming the storm"
+    ],
+    "answer": "The Transfiguration",
+    "verse": "Matthew 17:2",
+    "explanation": "Jesus is revealed in glory before Peter, James, and John."
+  },
+  {
+    "id": "mat_022_01",
+    "collection": "New Testament",
+    "book": "Matthew",
+    "chapter": 22,
+    "category": "Teachings of Jesus",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What is the greatest commandment?",
+    "choices": [
+      "Do not murder",
+      "Love the Lord your God and your neighbor",
+      "Keep the Sabbath holy",
+      "Honor your father and mother"
+    ],
+    "answer": "Love the Lord your God and your neighbor",
+    "verse": "Matthew 22:37–39",
+    "explanation": "Jesus summarizes the law as love for God and others."
+  },
+  {
+    "id": "mar_004_01",
+    "collection": "New Testament",
+    "book": "Mark",
+    "chapter": 4,
+    "category": "Parables",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What does the seed represent in the parable of the sower?",
+    "choices": [
+      "The Word of God",
+      "Faith",
+      "The church",
+      "The law"
+    ],
+    "answer": "The Word of God",
+    "verse": "Mark 4:14",
+    "explanation": "The seed represents God’s word growing in people’s hearts."
+  },
+  {
+    "id": "mar_005_01",
+    "collection": "New Testament",
+    "book": "Mark",
+    "chapter": 5,
+    "category": "Miracles",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Whom did Jesus heal after she touched His cloak?",
+    "choices": ["A blind man", "A woman with bleeding", "A paralyzed man", "A demon-possessed boy"],
+    "answer": "A woman with bleeding",
+    "verse": "Mark 5:34",
+    "explanation": "Her faith in Jesus’ power brought her healing."
+  },
+  {
+    "id": "mar_006_01",
+    "collection": "New Testament",
+    "book": "Mark",
+    "chapter": 6,
+    "category": "Miracles",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "How many loaves did Jesus use to feed the 5,000?",
+    "choices": ["5", "2", "7", "12"],
+    "answer": "5",
+    "verse": "Mark 6:38",
+    "explanation": "Five loaves and two fish fed the large crowd."
+  },
+  {
+    "id": "luk_019_01",
+    "collection": "New Testament",
+    "book": "Luke",
+    "chapter": 19,
+    "category": "Teachings of Jesus",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who climbed a tree to see Jesus?",
+    "choices": ["Zacchaeus", "Nicodemus", "Matthew", "Simon"],
+    "answer": "Zacchaeus",
+    "verse": "Luke 19:4",
+    "explanation": "Zacchaeus, a tax collector, wanted to see Jesus over the crowd."
+  },
+  {
+    "id": "luk_024_01",
+    "collection": "New Testament",
+    "book": "Luke",
+    "chapter": 24,
+    "category": "Resurrection",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who first encountered the risen Jesus?",
+    "choices": ["Peter", "Mary Magdalene", "John", "James"],
+    "answer": "Mary Magdalene",
+    "verse": "Luke 24:10",
+    "explanation": "She saw the empty tomb and the angel who announced His resurrection."
+  },
+  {
+    "id": "jhn_017_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 17,
+    "category": "Prayer",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What did Jesus pray for His disciples in John 17?",
+    "choices": [
+      "Protection from persecution",
+      "Unity among them",
+      "Wealth and comfort",
+      "Healing"
+    ],
+    "answer": "Unity among them",
+    "verse": "John 17:21",
+    "explanation": "Jesus prayed that believers would be one as He and the Father are one."
+  },
+  {
+    "id": "act_005_01",
+    "collection": "New Testament",
+    "book": "Acts",
+    "chapter": 5,
+    "category": "Early Church",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What happened to Ananias and Sapphira?",
+    "choices": [
+      "They were blessed",
+      "They fell dead",
+      "They fled persecution",
+      "They were imprisoned"
+    ],
+    "answer": "They fell dead",
+    "verse": "Acts 5:5,10",
+    "explanation": "They lied about the proceeds from their land and faced God’s judgment."
+  },
+  {
+    "id": "act_008_01",
+    "collection": "New Testament",
+    "book": "Acts",
+    "chapter": 8,
+    "category": "Evangelism",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who preached in Samaria after Stephen’s death?",
+    "choices": ["Philip", "Peter", "Paul", "Barnabas"],
+    "answer": "Philip",
+    "verse": "Acts 8:5",
+    "explanation": "Philip preached the gospel in Samaria, leading many to believe."
+  },
+  {
+    "id": "rom_011_01",
+    "collection": "New Testament",
+    "book": "Romans",
+    "chapter": 11,
+    "category": "Israel and the Gentiles",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What does Paul compare Israel to?",
+    "choices": [
+      "A vineyard",
+      "A wild olive branch",
+      "A branch of a cultivated olive tree",
+      "A fig tree"
+    ],
+    "answer": "A branch of a cultivated olive tree",
+    "verse": "Romans 11:17",
+    "explanation": "Gentiles are grafted in by faith like wild branches into the olive tree."
+  },
+  {
+    "id": "1co_011_01",
+    "collection": "New Testament",
+    "book": "1 Corinthians",
+    "chapter": 11,
+    "category": "Worship",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What practice does Paul address in 1 Corinthians 11?",
+    "choices": [
+      "Sabbath keeping",
+      "Head coverings and the Lord’s Supper",
+      "Baptism",
+      "Tithing"
+    ],
+    "answer": "Head coverings and the Lord’s Supper",
+    "verse": "1 Corinthians 11:4–5",
+    "explanation": "Paul provides guidance on conduct in worship."
+  },
+  {
+    "id": "2co_005_01b",
+    "collection": "New Testament",
+    "book": "2 Corinthians",
+    "chapter": 5,
+    "category": "Ministry",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What is the ministry given to believers?",
+    "choices": [
+      "Judging the world",
+      "Reconciliation",
+      "Preaching the law",
+      "Teaching only"
+    ],
+    "answer": "Reconciliation",
+    "verse": "2 Corinthians 5:18",
+    "explanation": "God reconciled us to Himself and gave believers the ministry of reconciliation."
+  },
+  {
+    "id": "gal_006_01",
+    "collection": "New Testament",
+    "book": "Galatians",
+    "chapter": 6,
+    "category": "Christian Living",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What should believers do for one another?",
+    "choices": [
+      "Compete",
+      "Bear one another’s burdens",
+      "Ignore faults",
+      "Judge strictly"
+    ],
+    "answer": "Bear one another’s burdens",
+    "verse": "Galatians 6:2",
+    "explanation": "This fulfills the law of Christ through mutual support."
+  },
+  {
+    "id": "eph_004_01",
+    "collection": "New Testament",
+    "book": "Ephesians",
+    "chapter": 4,
+    "category": "Unity",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What should believers strive for?",
+    "choices": [
+      "Unity of the Spirit",
+      "Personal gain",
+      "Ritual observance",
+      "Political power"
+    ],
+    "answer": "Unity of the Spirit",
+    "verse": "Ephesians 4:3",
+    "explanation": "Paul urges believers to maintain unity in the body of Christ."
+  },
+  {
+    "id": "phi_004_01",
+    "collection": "New Testament",
+    "book": "Philippians",
+    "chapter": 4,
+    "category": "Joy",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What should believers do in all circumstances?",
+    "choices": [
+      "Rejoice",
+      "Fret",
+      "Judge others",
+      "Avoid suffering"
+    ],
+    "answer": "Rejoice",
+    "verse": "Philippians 4:4",
+    "explanation": "Paul encourages joy as a hallmark of Christian living."
+  },
+  {
+    "id": "col_003_01",
+    "collection": "New Testament",
+    "book": "Colossians",
+    "chapter": 3,
+    "category": "Christian Conduct",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What should believers set their minds on?",
+    "choices": [
+      "Earthly things",
+      "Heavenly things",
+      "Wealth",
+      "Power"
+    ],
+    "answer": "Heavenly things",
+    "verse": "Colossians 3:2",
+    "explanation": "Believers are called to focus on eternal values."
+  },
+  {
+    "id": "heb_012_01",
+    "collection": "New Testament",
+    "book": "Hebrews",
+    "chapter": 12,
+    "category": "Perseverance",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What are believers urged to do in Hebrews 12?",
+    "choices": [
+      "Run with endurance the race set before them",
+      "Avoid trials",
+      "Seek earthly treasures",
+      "Judge the weak"
+    ],
+    "answer": "Run with endurance the race set before them",
+    "verse": "Hebrews 12:1",
+    "explanation": "Faith requires perseverance in the Christian life."
+  }
+]

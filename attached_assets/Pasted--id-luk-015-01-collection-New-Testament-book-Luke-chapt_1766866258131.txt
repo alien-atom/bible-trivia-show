@@ -1,0 +1,363 @@
+[
+  {
+    "id": "luk_015_01",
+    "collection": "New Testament",
+    "book": "Luke",
+    "chapter": 15,
+    "category": "Parables",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Which parable describes a son who leaves home and later returns?",
+    "choices": [
+      "The Lost Sheep",
+      "The Lost Coin",
+      "The Prodigal Son",
+      "The Rich Fool"
+    ],
+    "answer": "The Prodigal Son",
+    "verse": "Luke 15:11–24",
+    "explanation": "Jesus tells of a son who is welcomed back by his father."
+  },
+  {
+    "id": "luk_018_01",
+    "collection": "New Testament",
+    "book": "Luke",
+    "chapter": 18,
+    "category": "Prayer",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Why did Jesus tell the parable of the persistent widow?",
+    "choices": [
+      "To explain justice",
+      "To teach persistence in prayer",
+      "To warn judges",
+      "To show mercy"
+    ],
+    "answer": "To teach persistence in prayer",
+    "verse": "Luke 18:1",
+    "explanation": "Jesus taught that believers should always pray and not give up."
+  },
+  {
+    "id": "jhn_003_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 3,
+    "category": "Salvation",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Who visited Jesus at night to ask about being born again?",
+    "choices": [
+      "Joseph of Arimathea",
+      "Nicodemus",
+      "Andrew",
+      "Philip"
+    ],
+    "answer": "Nicodemus",
+    "verse": "John 3:1–2",
+    "explanation": "Nicodemus was a Pharisee who sought understanding from Jesus."
+  },
+  {
+    "id": "jhn_004_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 4,
+    "category": "Witness",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "With whom did Jesus speak at Jacob’s well?",
+    "choices": [
+      "A Samaritan woman",
+      "Mary Magdalene",
+      "A Roman official",
+      "A Jewish teacher"
+    ],
+    "answer": "A Samaritan woman",
+    "verse": "John 4:7",
+    "explanation": "Jesus spoke with a Samaritan woman about living water."
+  },
+  {
+    "id": "jhn_006_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 6,
+    "category": "Teachings of Jesus",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What does Jesus call Himself in John 6?",
+    "choices": [
+      "The Light of the World",
+      "The Bread of Life",
+      "The Good Shepherd",
+      "The True Vine"
+    ],
+    "answer": "The Bread of Life",
+    "verse": "John 6:35",
+    "explanation": "Jesus teaches that He is essential for spiritual life."
+  },
+  {
+    "id": "jhn_010_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 10,
+    "category": "Identity of Jesus",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "How does Jesus describe Himself in John 10?",
+    "choices": [
+      "The True Vine",
+      "The Good Shepherd",
+      "The Resurrection",
+      "The Way"
+    ],
+    "answer": "The Good Shepherd",
+    "verse": "John 10:11",
+    "explanation": "Jesus explains His care and sacrifice for His followers."
+  },
+  {
+    "id": "jhn_011_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 11,
+    "category": "Miracles",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Whom did Jesus raise from the dead in Bethany?",
+    "choices": [
+      "Jairus’ daughter",
+      "The widow’s son",
+      "Lazarus",
+      "Stephen"
+    ],
+    "answer": "Lazarus",
+    "verse": "John 11:43–44",
+    "explanation": "Jesus raised Lazarus after four days in the tomb."
+  },
+  {
+    "id": "jhn_013_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 13,
+    "category": "Servanthood",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What did Jesus do to demonstrate servanthood?",
+    "choices": [
+      "He fed the poor",
+      "He healed the sick",
+      "He washed the disciples’ feet",
+      "He taught in parables"
+    ],
+    "answer": "He washed the disciples’ feet",
+    "verse": "John 13:5",
+    "explanation": "Jesus modeled humble service to His disciples."
+  },
+  {
+    "id": "jhn_014_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 14,
+    "category": "Comfort and Promise",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What does Jesus promise to prepare for His followers?",
+    "choices": [
+      "A kingdom on earth",
+      "A place",
+      "A throne",
+      "A reward"
+    ],
+    "answer": "A place",
+    "verse": "John 14:2",
+    "explanation": "Jesus promises a place in His Father’s house."
+  },
+  {
+    "id": "jhn_015_01",
+    "collection": "New Testament",
+    "book": "John",
+    "chapter": 15,
+    "category": "Discipleship",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What metaphor does Jesus use to describe believers’ connection to Him?",
+    "choices": [
+      "Sheep",
+      "Branches",
+      "Stones",
+      "Servants"
+    ],
+    "answer": "Branches",
+    "verse": "John 15:5",
+    "explanation": "Believers must remain connected to Christ to bear fruit."
+  },
+  {
+    "id": "act_001_01",
+    "collection": "New Testament",
+    "book": "Acts",
+    "chapter": 1,
+    "category": "Ascension",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "What happened to Jesus at the beginning of Acts?",
+    "choices": [
+      "He was baptized",
+      "He ascended into heaven",
+      "He performed a miracle",
+      "He preached in Jerusalem"
+    ],
+    "answer": "He ascended into heaven",
+    "verse": "Acts 1:9",
+    "explanation": "Jesus was taken up into heaven before the disciples."
+  },
+  {
+    "id": "act_004_01",
+    "collection": "New Testament",
+    "book": "Acts",
+    "chapter": 4,
+    "category": "Early Church",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What characterized the believers’ attitude toward possessions?",
+    "choices": [
+      "Private ownership",
+      "Selling and sharing",
+      "Strict tithing",
+      "Government support"
+    ],
+    "answer": "Selling and sharing",
+    "verse": "Acts 4:34–35",
+    "explanation": "Believers shared so no one was in need."
+  },
+  {
+    "id": "act_007_01",
+    "collection": "New Testament",
+    "book": "Acts",
+    "chapter": 7,
+    "category": "Martyrdom",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who was the first Christian martyr?",
+    "choices": [
+      "James",
+      "Peter",
+      "Stephen",
+      "Philip"
+    ],
+    "answer": "Stephen",
+    "verse": "Acts 7:59–60",
+    "explanation": "Stephen was stoned for his testimony about Jesus."
+  },
+  {
+    "id": "act_010_01",
+    "collection": "New Testament",
+    "book": "Acts",
+    "chapter": 10,
+    "category": "Gentile Inclusion",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who received the Holy Spirit while Peter was preaching?",
+    "choices": [
+      "The apostles",
+      "Cornelius and his household",
+      "The Sanhedrin",
+      "The Samaritans"
+    ],
+    "answer": "Cornelius and his household",
+    "verse": "Acts 10:44",
+    "explanation": "God showed that Gentiles were included in salvation."
+  },
+  {
+    "id": "rom_012_01",
+    "collection": "New Testament",
+    "book": "Romans",
+    "chapter": 12,
+    "category": "Christian Living",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "How are believers instructed to offer themselves to God?",
+    "choices": [
+      "As sacrifices of praise",
+      "As living sacrifices",
+      "As offerings of money",
+      "As servants of the law"
+    ],
+    "answer": "As living sacrifices",
+    "verse": "Romans 12:1",
+    "explanation": "Paul urges believers to dedicate their lives to God."
+  },
+  {
+    "id": "1co_010_01",
+    "collection": "New Testament",
+    "book": "1 Corinthians",
+    "chapter": 10,
+    "category": "Warnings",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What does Paul warn believers to flee?",
+    "choices": [
+      "Persecution",
+      "Idolatry",
+      "Suffering",
+      "Conflict"
+    ],
+    "answer": "Idolatry",
+    "verse": "1 Corinthians 10:14",
+    "explanation": "Paul warns against participating in idol worship."
+  },
+  {
+    "id": "2co_012_01",
+    "collection": "New Testament",
+    "book": "2 Corinthians",
+    "chapter": 12,
+    "category": "Grace",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What did the Lord say was sufficient for Paul?",
+    "choices": [
+      "Strength",
+      "Faith",
+      "Grace",
+      "Wisdom"
+    ],
+    "answer": "Grace",
+    "verse": "2 Corinthians 12:9",
+    "explanation": "God’s grace is sufficient in weakness."
+  },
+  {
+    "id": "heb_004_01",
+    "collection": "New Testament",
+    "book": "Hebrews",
+    "chapter": 4,
+    "category": "Rest",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What does the writer say remains for the people of God?",
+    "choices": [
+      "A kingdom",
+      "A rest",
+      "A sacrifice",
+      "A covenant"
+    ],
+    "answer": "A rest",
+    "verse": "Hebrews 4:9",
+    "explanation": "God’s promised rest is still available."
+  },
+  {
+    "id": "rev_003_01",
+    "collection": "New Testament",
+    "book": "Revelation",
+    "chapter": 3,
+    "category": "Letters to the Churches",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Which church is described as lukewarm?",
+    "choices": [
+      "Ephesus",
+      "Smyrna",
+      "Laodicea",
+      "Pergamum"
+    ],
+    "answer": "Laodicea",
+    "verse": "Revelation 3:16",
+    "explanation": "Laodicea is rebuked for being neither hot nor cold."
+  }
+]

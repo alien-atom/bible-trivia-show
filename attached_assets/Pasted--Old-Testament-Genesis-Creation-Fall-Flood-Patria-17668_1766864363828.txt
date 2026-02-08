@@ -1,0 +1,358 @@
+{
+  "Old Testament": {
+    "Genesis": [
+      "Creation",
+      "Fall",
+      "Flood",
+      "Patriarchs",
+      "Covenants",
+      "Joseph Narrative"
+    ],
+    "Exodus": [
+      "Moses",
+      "Bondage in Egypt",
+      "Plagues",
+      "Passover",
+      "Red Sea",
+      "Law at Sinai",
+      "Tabernacle"
+    ],
+    "Leviticus": [
+      "Sacrificial System",
+      "Priesthood",
+      "Clean and Unclean Laws",
+      "Festivals",
+      "Holiness Code"
+    ],
+    "Numbers": [
+      "Census",
+      "Wilderness Wanderings",
+      "Rebellion",
+      "Leadership",
+      "Journey Stages"
+    ],
+    "Deuteronomy": [
+      "Law Repetition",
+      "Covenant Renewal",
+      "Blessings and Curses",
+      "Leadership Transition"
+    ],
+    "Joshua": [
+      "Conquest of Canaan",
+      "Crossing the Jordan",
+      "Battles",
+      "Land Allotment",
+      "Covenant Renewal"
+    ],
+    "Judges": [
+      "Cycles of Apostasy",
+      "Major Judges",
+      "Minor Judges",
+      "Moral Decline"
+    ],
+    "Ruth": [
+      "Loyalty",
+      "Redemption",
+      "Family Lineage",
+      "God’s Providence"
+    ],
+    "1 Samuel": [
+      "Samuel’s Leadership",
+      "Rise of the Monarchy",
+      "Saul’s Reign",
+      "David’s Anointing"
+    ],
+    "2 Samuel": [
+      "David’s Kingship",
+      "Jerusalem Established",
+      "Covenant with David",
+      "Sin and Consequences"
+    ],
+    "1 Kings": [
+      "Solomon’s Reign",
+      "Temple Construction",
+      "Kingdom Division",
+      "Early Prophets"
+    ],
+    "2 Kings": [
+      "Northern Kingdom",
+      "Southern Kingdom",
+      "Prophetic Ministry",
+      "Exile"
+    ],
+    "1 Chronicles": [
+      "Genealogies",
+      "David’s Reign",
+      "Temple Preparation"
+    ],
+    "2 Chronicles": [
+      "Solomon’s Temple",
+      "Kings of Judah",
+      "Reforms",
+      "Fall of Judah"
+    ],
+    "Ezra": [
+      "Return from Exile",
+      "Temple Rebuilding",
+      "Spiritual Renewal"
+    ],
+    "Nehemiah": [
+      "Wall Rebuilding",
+      "Leadership",
+      "Community Reform"
+    ],
+    "Esther": [
+      "God’s Providence",
+      "Deliverance",
+      "Jewish Identity"
+    ],
+    "Job": [
+      "Suffering",
+      "God’s Sovereignty",
+      "Human Righteousness",
+      "Restoration"
+    ],
+    "Psalms": [
+      "Praise",
+      "Lament",
+      "Thanksgiving",
+      "Wisdom",
+      "Messianic Psalms"
+    ],
+    "Proverbs": [
+      "Wisdom Principles",
+      "Righteous Living",
+      "Speech and Conduct",
+      "Family and Work"
+    ],
+    "Ecclesiastes": [
+      "Meaning of Life",
+      "Human Vanity",
+      "Wisdom Reflections"
+    ],
+    "Song of Solomon": [
+      "Love",
+      "Marriage",
+      "Devotion"
+    ],
+    "Isaiah": [
+      "Judgment",
+      "Messianic Prophecy",
+      "Restoration",
+      "God’s Holiness"
+    ],
+    "Jeremiah": [
+      "Prophetic Warnings",
+      "Covenant Failure",
+      "New Covenant",
+      "Fall of Jerusalem"
+    ],
+    "Lamentations": [
+      "Grief",
+      "Judgment",
+      "Hope"
+    ],
+    "Ezekiel": [
+      "Visions of God",
+      "Judgment on Israel",
+      "Restoration",
+      "New Temple"
+    ],
+    "Daniel": [
+      "Faithfulness in Exile",
+      "God’s Sovereignty",
+      "Apocalyptic Visions"
+    ],
+    "Hosea": [
+      "Faithfulness",
+      "Spiritual Adultery",
+      "Redemptive Love"
+    ],
+    "Joel": [
+      "Day of the Lord",
+      "Repentance",
+      "Restoration"
+    ],
+    "Amos": [
+      "Social Justice",
+      "Divine Judgment",
+      "True Worship"
+    ],
+    "Obadiah": [
+      "Judgment on Edom",
+      "God’s Justice"
+    ],
+    "Jonah": [
+      "God’s Mercy",
+      "Repentance",
+      "Prophetic Obedience"
+    ],
+    "Micah": [
+      "Judgment",
+      "Messianic Hope",
+      "Righteous Living"
+    ],
+    "Nahum": [
+      "Judgment on Nineveh",
+      "God’s Power"
+    ],
+    "Habakkuk": [
+      "Faith",
+      "Divine Justice",
+      "Trust in God"
+    ],
+    "Zephaniah": [
+      "Day of the Lord",
+      "Judgment and Restoration"
+    ],
+    "Haggai": [
+      "Temple Rebuilding",
+      "Obedience"
+    ],
+    "Zechariah": [
+      "Visions",
+      "Messianic Prophecy",
+      "Restoration"
+    ],
+    "Malachi": [
+      "Covenant Faithfulness",
+      "Worship",
+      "Coming Messenger"
+    ]
+  },
+  "New Testament": {
+    "Matthew": [
+      "Birth of Jesus",
+      "Teachings of Jesus",
+      "Parables",
+      "Miracles",
+      "Crucifixion",
+      "Resurrection"
+    ],
+    "Mark": [
+      "Servant Messiah",
+      "Miracles",
+      "Discipleship",
+      "Passion Narrative"
+    ],
+    "Luke": [
+      "Birth Narratives",
+      "Teachings",
+      "Compassion of Jesus",
+      "Resurrection"
+    ],
+    "John": [
+      "Signs of Jesus",
+      "I Am Statements",
+      "Eternal Life",
+      "Passion and Resurrection"
+    ],
+    "Acts": [
+      "Early Church",
+      "Holy Spirit",
+      "Peter’s Ministry",
+      "Paul’s Missions"
+    ],
+    "Romans": [
+      "Sin and Salvation",
+      "Justification by Faith",
+      "Christian Living"
+    ],
+    "1 Corinthians": [
+      "Church Problems",
+      "Spiritual Gifts",
+      "Love",
+      "Resurrection"
+    ],
+    "2 Corinthians": [
+      "Apostolic Ministry",
+      "Suffering",
+      "Generosity"
+    ],
+    "Galatians": [
+      "Freedom in Christ",
+      "Law and Grace"
+    ],
+    "Ephesians": [
+      "Unity in Christ",
+      "Church Identity",
+      "Christian Conduct"
+    ],
+    "Philippians": [
+      "Joy",
+      "Humility of Christ",
+      "Perseverance"
+    ],
+    "Colossians": [
+      "Supremacy of Christ",
+      "Christian Living"
+    ],
+    "1 Thessalonians": [
+      "Christian Hope",
+      "Second Coming"
+    ],
+    "2 Thessalonians": [
+      "End Times",
+      "Steadfast Faith"
+    ],
+    "1 Timothy": [
+      "Church Leadership",
+      "Sound Doctrine"
+    ],
+    "2 Timothy": [
+      "Faithfulness",
+      "Endurance",
+      "Scripture"
+    ],
+    "Titus": [
+      "Good Works",
+      "Church Order"
+    ],
+    "Philemon": [
+      "Forgiveness",
+      "Christian Brotherhood"
+    ],
+    "Hebrews": [
+      "Supremacy of Christ",
+      "New Covenant",
+      "Faith"
+    ],
+    "James": [
+      "Practical Faith",
+      "Wisdom",
+      "Perseverance"
+    ],
+    "1 Peter": [
+      "Suffering",
+      "Christian Hope",
+      "Holy Living"
+    ],
+    "2 Peter": [
+      "False Teachers",
+      "Spiritual Growth"
+    ],
+    "1 John": [
+      "Love",
+      "Assurance of Faith",
+      "Truth"
+    ],
+    "2 John": [
+      "Truth",
+      "Obedience"
+    ],
+    "3 John": [
+      "Hospitality",
+      "Faithfulness"
+    ],
+    "Jude": [
+      "Contending for the Faith",
+      "False Teachers"
+    ],
+    "Revelation": [
+      "Letters to the Churches",
+      "Heavenly Worship",
+      "Judgment",
+      "New Creation"
+    ]
+  }
+}

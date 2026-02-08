@@ -1,0 +1,334 @@
+[
+  {
+    "id": "gen_012_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 12,
+    "category": "Patriarchs",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Who was called by God to leave his homeland and go to a new land?",
+    "choices": ["Isaac", "Jacob", "Abram", "Joseph"],
+    "answer": "Abram",
+    "verse": "Genesis 12:1",
+    "explanation": "God called Abram to journey to a land He would show him."
+  },
+  {
+    "id": "gen_015_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 15,
+    "category": "Covenants",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What did God promise Abram regarding his descendants?",
+    "choices": [
+      "They would be priests",
+      "They would be as numerous as the stars",
+      "They would rule Egypt",
+      "They would never suffer"
+    ],
+    "answer": "They would be as numerous as the stars",
+    "verse": "Genesis 15:5",
+    "explanation": "God promised Abram countless descendants."
+  },
+  {
+    "id": "gen_022_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 22,
+    "category": "Patriarchs",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Whom did God ask Abraham to offer as a sacrifice?",
+    "choices": ["Ishmael", "Isaac", "Jacob", "Eliezer"],
+    "answer": "Isaac",
+    "verse": "Genesis 22:2",
+    "explanation": "God tested Abraham’s faith by asking him to offer Isaac."
+  },
+  {
+    "id": "gen_028_01",
+    "collection": "Old Testament",
+    "book": "Genesis",
+    "chapter": 28,
+    "category": "Patriarchs",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "What did Jacob see in his dream at Bethel?",
+    "choices": [
+      "A burning bush",
+      "A ladder reaching to heaven",
+      "A river of fire",
+      "A throne"
+    ],
+    "answer": "A ladder reaching to heaven",
+    "verse": "Genesis 28:12",
+    "explanation": "Jacob dreamed of a ladder with angels ascending and descending."
+  },
+  {
+    "id": "exo_012_02",
+    "collection": "Old Testament",
+    "book": "Exodus",
+    "chapter": 12,
+    "category": "Passover",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What kind of animal was required for the Passover sacrifice?",
+    "choices": [
+      "A bull",
+      "A goat or lamb without defect",
+      "A dove",
+      "A ram"
+    ],
+    "answer": "A goat or lamb without defect",
+    "verse": "Exodus 12:5",
+    "explanation": "The Passover animal had to be without blemish."
+  },
+  {
+    "id": "exo_019_01",
+    "collection": "Old Testament",
+    "book": "Exodus",
+    "chapter": 19,
+    "category": "Law at Sinai",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Where did God give the law to Moses?",
+    "choices": [
+      "Mount Horeb",
+      "Mount Sinai",
+      "Mount Carmel",
+      "Mount Nebo"
+    ],
+    "answer": "Mount Sinai",
+    "verse": "Exodus 19:20",
+    "explanation": "God descended on Mount Sinai to give His law."
+  },
+  {
+    "id": "exo_040_01",
+    "collection": "Old Testament",
+    "book": "Exodus",
+    "chapter": 40,
+    "category": "Tabernacle",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "What sign showed that God’s glory filled the tabernacle?",
+    "choices": [
+      "Fire from heaven",
+      "A cloud covering it",
+      "Thunder and lightning",
+      "Angels singing"
+    ],
+    "answer": "A cloud covering it",
+    "verse": "Exodus 40:34",
+    "explanation": "The cloud represented God’s presence dwelling among Israel."
+  },
+  {
+    "id": "lev_010_01",
+    "collection": "Old Testament",
+    "book": "Leviticus",
+    "chapter": 10,
+    "category": "Priesthood",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Which two sons of Aaron died for offering unauthorized fire?",
+    "choices": [
+      "Eleazar and Ithamar",
+      "Nadab and Abihu",
+      "Phinehas and Eleazar",
+      "Moses and Aaron"
+    ],
+    "answer": "Nadab and Abihu",
+    "verse": "Leviticus 10:1–2",
+    "explanation": "They disobeyed God’s instructions for worship."
+  },
+  {
+    "id": "num_006_01",
+    "collection": "Old Testament",
+    "book": "Numbers",
+    "chapter": 6,
+    "category": "Law",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who could take a Nazirite vow?",
+    "choices": [
+      "Only priests",
+      "Only Levites",
+      "Any Israelite",
+      "Only prophets"
+    ],
+    "answer": "Any Israelite",
+    "verse": "Numbers 6:2",
+    "explanation": "The Nazirite vow was open to all Israelites."
+  },
+  {
+    "id": "num_021_01",
+    "collection": "Old Testament",
+    "book": "Numbers",
+    "chapter": 21,
+    "category": "Wilderness Wanderings",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "What did Moses lift up to heal the people from snake bites?",
+    "choices": [
+      "A staff",
+      "A bronze serpent",
+      "An altar",
+      "A banner"
+    ],
+    "answer": "A bronze serpent",
+    "verse": "Numbers 21:9",
+    "explanation": "Those who looked at the bronze serpent were healed."
+  },
+  {
+    "id": "deu_008_01",
+    "collection": "Old Testament",
+    "book": "Deuteronomy",
+    "chapter": 8,
+    "category": "Blessings and Curses",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Why did God allow Israel to hunger in the wilderness?",
+    "choices": [
+      "To punish them",
+      "To humble and test them",
+      "Because of scarcity",
+      "Because of enemies"
+    ],
+    "answer": "To humble and test them",
+    "verse": "Deuteronomy 8:2–3",
+    "explanation": "God used the wilderness to teach dependence on Him."
+  },
+  {
+    "id": "jos_024_01",
+    "collection": "Old Testament",
+    "book": "Joshua",
+    "chapter": 24,
+    "category": "Covenant Renewal",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "What did Joshua challenge Israel to choose?",
+    "choices": [
+      "A king",
+      "A land",
+      "Whom they would serve",
+      "A new law"
+    ],
+    "answer": "Whom they would serve",
+    "verse": "Joshua 24:15",
+    "explanation": "Joshua urged Israel to serve the Lord alone."
+  },
+  {
+    "id": "jud_004_01",
+    "collection": "Old Testament",
+    "book": "Judges",
+    "chapter": 4,
+    "category": "Major Judges",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who was the female judge who led Israel to victory?",
+    "choices": [
+      "Ruth",
+      "Deborah",
+      "Jael",
+      "Miriam"
+    ],
+    "answer": "Deborah",
+    "verse": "Judges 4:4",
+    "explanation": "Deborah served as both prophet and judge."
+  },
+  {
+    "id": "1sa_003_01",
+    "collection": "Old Testament",
+    "book": "1 Samuel",
+    "chapter": 3,
+    "category": "Samuel’s Leadership",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "Who called Samuel during the night?",
+    "choices": [
+      "Eli",
+      "The Lord",
+      "Saul",
+      "An angel"
+    ],
+    "answer": "The Lord",
+    "verse": "1 Samuel 3:10",
+    "explanation": "God called Samuel to be His prophet."
+  },
+  {
+    "id": "1ki_008_01",
+    "collection": "Old Testament",
+    "book": "1 Kings",
+    "chapter": 8,
+    "category": "Temple Construction",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Who dedicated the temple in Jerusalem?",
+    "choices": [
+      "David",
+      "Solomon",
+      "Rehoboam",
+      "Josiah"
+    ],
+    "answer": "Solomon",
+    "verse": "1 Kings 8:22",
+    "explanation": "Solomon prayed and dedicated the temple to the Lord."
+  },
+  {
+    "id": "2ki_017_01",
+    "collection": "Old Testament",
+    "book": "2 Kings",
+    "chapter": 17,
+    "category": "Exile",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "Why was the northern kingdom of Israel exiled?",
+    "choices": [
+      "Military weakness",
+      "Disobedience to God",
+      "Natural disaster",
+      "Economic failure"
+    ],
+    "answer": "Disobedience to God",
+    "verse": "2 Kings 17:7–8",
+    "explanation": "Israel broke God’s covenant and followed other gods."
+  },
+  {
+    "id": "psa_051_01",
+    "collection": "Old Testament",
+    "book": "Psalms",
+    "chapter": 51,
+    "category": "Lament",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "After which sin did David write Psalm 51?",
+    "choices": [
+      "Census of Israel",
+      "Sin with Bathsheba",
+      "Fleeing Saul",
+      "Failing to build the temple"
+    ],
+    "answer": "Sin with Bathsheba",
+    "verse": "Psalm 51:1",
+    "explanation": "Psalm 51 is David’s prayer of repentance."
+  },
+  {
+    "id": "pro_001_01",
+    "collection": "Old Testament",
+    "book": "Proverbs",
+    "chapter": 1,
+    "category": "Wisdom Principles",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "What is the beginning of knowledge according to Proverbs?",
+    "choices": [
+      "Education",
+      "Experience",
+      "Fear of the Lord",
+      "Understanding"
+    ],
+    "answer": "Fear of the Lord",
+    "verse": "Proverbs 1:7",
+    "explanation": "Reverence for God is the foundation of wisdom."
+  }
+]

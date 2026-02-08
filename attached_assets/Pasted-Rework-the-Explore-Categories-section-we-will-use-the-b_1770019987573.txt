@@ -1,0 +1,143 @@
+Rework the “Explore Categories” section, we will use the book of Matthew as a sample for the remaining. Now create the first category featuring the book of Matthew named “The Messiah’s Path”
+
+Generating 1,000 unique questions for a map with 18 distinct milestones is a massive undertaking. To ensure your game engine has high-quality data without hitting "content fatigue," I have structured this response into two parts:
+ * A Core Data Table: This acts as the "source of truth" for your engine.
+ * A Large Sample Set: 100 high-quality, unique questions across five categories.
+ * The Scaling Logic: Since 1,000 questions on 18 points requires heavy permutation (e.g., "Is A before B?"), I have provided the logic templates to programmatically generate the remaining 900+ variations to ensure your database stays unique.
+The Messiah's Path: Core Data Reference
+| Node ID | Location Name | Scripture | Visual Icon | Sequence |
+|---|---|---|---|---|
+| N1 | Bethlehem Star & Manger | Matt 1-2 | Star, Manger, Three Figures | 1 |
+| N2 | Wilderness Temptation | Matt 4 | Devil mask, Angel, Desert | 2 |
+| N3 | Baptism in the Jordan | Matt 3 | Dove, Water splash | 3 |
+| N4 | Sermon on the Mount Peak | Matt 5-7 | Mountain, Two Scrolls | 4 |
+| N5 | Beatitudes Pass | Matt 10 | Bridge, Flower garden | 5 |
+| N6 | Parable Patch | Matt 13 | Farmer sowing seeds, Field | 6 |
+| N7 | Lake of Miracles | Matt 8-9 | Boat on stormy water, Hand | 7 |
+| N8 | Loaves & Fishes Picnic | Matt 14 | Basket of bread/fish, Green hill | 8 |
+| N9 | Peter’s Rock | Matt 16 | Stone bridge over water | 9 |
+| N10 | Transfiguration Peak | Matt 17 | Castle on hill, Glowing figures | 10 |
+| N11 | Jerusalem Gate | Matt 21 | City gate, Palm branches | 11 |
+| N12 | Olivet Discourse | Matt 24 | Temple ruins, Trees | 12 |
+| N13 | Last Supper Room | Matt 26 | Table, Chalice, Bread | 13 |
+| N14 | Gethsemane Grove | Matt 26 | Dark trees, Night sky | 14 |
+| N15 | Cross on Golgotha | Matt 27-28 | Wooden Cross, Hill | 15 |
+| N16 | The Empty Tomb | Matt 27-28 | Cave, Rolled stone | 16 |
+| N17 | Great Commission Mountain | Matt 28 | Globe, Dove, Mountain | 17 |
+Game Question Database (Sample 1-100)
+| ID | Category | Question | Answer | Label |
+|---|---|---|---|---|
+| Q001 | SCRIPTURE | Which chapters cover the Bethlehem Star & Manger? | Matt 1-2 | Early_Life |
+| Q002 | VISUAL | What bird is seen descending at the Great Commission Mountain? | A Dove | Symbols |
+| Q003 | CHRONOLOGY | Which event occurs immediately after the Baptism in the Jordan? | Wilderness Temptation | Sequence |
+| Q004 | GEOGRAPHY | According to the compass, which direction is the Wilderness Temptation from the Manger? | Southwest | Navigation |
+| Q005 | SCRIPTURE | Matthew chapters 8-9 are associated with which location? | Lake of Miracles | Miracles |
+| Q006 | VISUAL | How many scrolls are pictured at the Sermon on the Mount Peak? | Two | Detail |
+| Q007 | CHRONOLOGY | Does the Parable Patch come before or after the Beatitudes Pass? | After | Logic |
+| Q008 | SCRIPTURE | What location is tied specifically to Matthew chapter 10? | Beatitudes Pass | Ministry |
+| Q009 | VISUAL | What is the farmer doing in the Parable Patch? | Sowing seeds | Parables |
+| Q010 | RELATIONAL | Which location sits directly between the Lake of Miracles and Peter's Rock? | Loaves & Fishes Picnic | Spatial |
+| Q011 | SCRIPTURE | The "Peter's Rock" milestone refers to which Matthew chapter? | Matt 16 | Apostles |
+| Q012 | VISUAL | What glows above the Transfiguration Peak? | A Castle and two figures | Glory |
+| Q013 | CHRONOLOGY | What is the final milestone on the Messiah’s Path? | The Great Commission Mountain | Ending |
+| Q014 | GEOGRAPHY | Is the Empty Tomb east or west of the Cross on Golgotha? | East | Navigation |
+| Q015 | VISUAL | What greenery is seen at the Jerusalem Gate? | Palm branches | Passion_Week |
+| Q016 | SCRIPTURE | Which two milestones share the reference "Matt 26"? | Last Supper Room & Gethsemane Grove | Reference |
+| Q017 | VISUAL | What is sitting on the table in the Last Supper Room? | A chalice (cup) and bread | Communion |
+| Q018 | CHRONOLOGY | What event happens right before the Jerusalem Gate? | Transfiguration Peak | Sequence |
+| Q019 | VISUAL | What color is the path that connects all the locations? | Gold / Yellow | Interface |
+| Q020 | SCRIPTURE | Matthew 24 focuses on which location? | Olivet Discourse | Prophecy |
+| Q021 | VISUAL | What is seen coming out of the clouds at the Lake of Miracles? | A hand | Divinity |
+| Q022 | CHRONOLOGY | Which comes first: The Sermon on the Mount or the Baptism? | Baptism | Order |
+| Q023 | SCRIPTURE | Where does the path go in Matthew 27-28? | The Cross and The Empty Tomb | Resurrection |
+| Q024 | VISUAL | How many figures are standing near the Manger? | Three | Detail |
+| Q025 | GEOGRAPHY | Which location is the most "North" on the map? | Transfiguration Peak | Navigation |
+| Q026 | VISUAL | What is the weather like at the Lake of Miracles? | Stormy / Windy | Miracles |
+| Q027 | SCRIPTURE | Which location features Matt 5-7? | Sermon on the Mount Peak | Teachings |
+| Q028 | CHRONOLOGY | After the Loaves & Fishes Picnic, where does the path lead next? | Peter's Rock | Sequence |
+| Q029 | VISUAL | What is on top of the globe at the end of the path? | A dove | Great_Commission |
+| Q030 | GEOGRAPHY | Is the Gethsemane Grove North or South of the Empty Tomb? | South | Navigation |
+| Q031 | SCRIPTURE | In what chapter(s) does the path reach the Great Commission? | Matt 28 | Apostles |
+| Q032 | VISUAL | What is rolled away from the Empty Tomb? | A stone | Easter |
+| Q033 | CHRONOLOGY | Is the Olivet Discourse before or after the Last Supper? | Before | Sequence |
+| Q034 | VISUAL | What is shown next to the devil mask in the Wilderness? | An angel | Temptation |
+| Q035 | RELATIONAL | Which location is associated with a picnic? | Loaves & Fishes | Food |
+| Q036 | VISUAL | What kind of trees are in the Gethsemane Grove? | Dark, gnarled trees | Passion_Week |
+| Q037 | SCRIPTURE | Matthew 13 corresponds to which visual area? | Parable Patch | Farming |
+| Q038 | VISUAL | What is the background color of the map parchment? | Tan / Light Brown | Aesthetic |
+| Q039 | CHRONOLOGY | What is the third stop on the path? | Baptism in the Jordan | Order |
+| Q040 | VISUAL | What is hanging over the Bethlehem Manger? | The Star | Nativity |
+| Q041 | GEOGRAPHY | Which milestone is furthest East? | The Great Commission Mountain | Navigation |
+| Q042 | SCRIPTURE | Which chapter covers the "Keys" at Peter's Rock/Transfiguration? | Matt 16/17 | Authority |
+| Q043 | VISUAL | What is the Sermon on the Mount Peak shaped like? | A tall mountain with two peaks | Terrain |
+| Q044 | RELATIONAL | Which bridge comes first: Beatitudes Pass or Peter's Rock? | Beatitudes Pass | Sequence |
+| Q045 | VISUAL | What are the clouds doing around the Transfiguration Peak? | They are glowing / parted | Glory |
+| Q046 | SCRIPTURE | Where would you find the events of Matt 21? | Jerusalem Gate | Entry |
+| Q047 | VISUAL | What items are in the basket at the Loaves & Fishes Picnic? | Fish and Bread | Miracles |
+| Q048 | CHRONOLOGY | Does the Cross come before the Empty Tomb? | Yes | Sequence |
+| Q049 | VISUAL | How many points are on the compass rose? | Four main points (N, S, E, W) | Detail |
+| Q050 | GEOGRAPHY | If you are at the Parable Patch, which way is the Sermon on the Mount? | North | Navigation |
+| Q051 | VISUAL | What is splashing out of the water at the Baptism? | A fish or water droplets | Detail |
+| Q052 | SCRIPTURE | Matt 4 describes which location? | Wilderness Temptation | Testing |
+| Q053 | RELATIONAL | Which event is pictured as a "Pass"? | Beatitudes Pass | Travel |
+| Q054 | VISUAL | What color are the palm branches at the Jerusalem Gate? | Green | Passion_Week |
+| Q055 | CHRONOLOGY | Which is the second to last event? | The Empty Tomb | Order |
+| Q056 | VISUAL | Is the cross made of wood or stone in the illustration? | Wood | Detail |
+| Q057 | SCRIPTURE | What is the scripture for the Sermon on the Mount? | Matt 5-7 | Teaching |
+| Q058 | GEOGRAPHY | Which direction does the path curve after the Parable Patch? | East / Northeast | Navigation |
+| Q059 | VISUAL | What is the ground like in the Parable Patch? | Brown, tilled soil | Farming |
+| Q060 | RELATIONAL | Which location is associated with ruins? | Olivet Discourse | Prophecy |
+| Q061 | SCRIPTURE | Matt 14 is the location of what event? | Loaves & Fishes Picnic | Miracles |
+| Q062 | VISUAL | What is the shape of the mountain at the Great Commission? | A green, triangular peak | Terrain |
+| Q063 | CHRONOLOGY | Does the Lake of Miracles come before or after the Parable Patch? | Before | Sequence |
+| Q064 | VISUAL | What sits on the bridge at Peter's Rock? | The path itself | Detail |
+| Q065 | GEOGRAPHY | Which is further South: Baptism or Gethsemane? | Gethsemane | Navigation |
+| Q066 | SCRIPTURE | Which chapters describe the burial and resurrection? | Matt 27-28 | Resurrection |
+| Q067 | VISUAL | What is shown above the city gate in Jerusalem? | A tower/battlements | Detail |
+| Q068 | CHRONOLOGY | What is the 10th milestone? | Transfiguration Peak | Order |
+| Q069 | RELATIONAL | Which event involves a boat? | Lake of Miracles | Miracles |
+| Q070 | VISUAL | What celestial object is in the top left? | The Star of Bethlehem | Nativity |
+| Q071 | SCRIPTURE | Matt 10 is the chapter for which milestone? | Beatitudes Pass | Teaching |
+| Q072 | VISUAL | Are there flowers at the Beatitudes Pass? | Yes | Detail |
+| Q073 | CHRONOLOGY | Which event is directly after the Transfiguration? | Jerusalem Gate | Sequence |
+| Q074 | GEOGRAPHY | Is the Lake of Miracles North or South of the Picnic? | North | Navigation |
+| Q075 | VISUAL | What is the primary color of the globe at the end? | Green and Blue | Detail |
+| Q076 | SCRIPTURE | Matt 16 occurs at which landmark? | Peter's Rock | Apostles |
+| Q077 | VISUAL | How many loaves are visible at the Picnic? | Two (in the icon) | Detail |
+| Q078 | CHRONOLOGY | Which occurs first: Olivet Discourse or Gethsemane? | Olivet Discourse | Sequence |
+| Q079 | VISUAL | What is the sky color at the Gethsemane Grove? | Dark blue / Black | Detail |
+| Q080 | RELATIONAL | Which location is depicted as a "Grove"? | Gethsemane | Passion_Week |
+| Q081 | SCRIPTURE | Which location uses Matt 3? | Baptism in the Jordan | Early_Life |
+| Q082 | VISUAL | What is the cross standing on? | A hill (Golgotha) | Detail |
+| Q083 | CHRONOLOGY | Where does Jesus go after the Last Supper? | Gethsemane Grove | Sequence |
+| Q084 | GEOGRAPHY | Which is the westernmost point on the map? | Bethlehem Star & Manger | Navigation |
+| Q085 | VISUAL | What is inside the Manger? | Baby Jesus (implied) / Straw | Nativity |
+| Q086 | SCRIPTURE | Matt 26 covers the Last Supper and what other event? | Gethsemane Grove | Reference |
+| Q087 | VISUAL | What is the hand at the Lake of Miracles doing? | Reaching down to the boat | Miracles |
+| Q088 | CHRONOLOGY | Which comes later: Peter's Rock or Beatitudes Pass? | Peter's Rock | Order |
+| Q089 | VISUAL | What color are the scrolls on the mountain? | Brown / Tan | Teaching |
+| Q090 | RELATIONAL | Which location is a "Peak"? | Transfiguration Peak | Glory |
+| Q091 | SCRIPTURE | Matt 1-2 covers what event? | Bethlehem Star & Manger | Nativity |
+| Q092 | VISUAL | How many fish are in the basket at the picnic? | Two | Detail |
+| Q093 | CHRONOLOGY | What is the milestone between the Cross and the Great Commission? | The Empty Tomb | Sequence |
+| Q094 | GEOGRAPHY | Is the Sermon on the Mount North of the Jordan River? | Yes | Navigation |
+| Q095 | VISUAL | What is the "Rock" at Peter's Rock made of? | Stone | Detail |
+| Q096 | SCRIPTURE | What chapter(s) are listed for the Empty Tomb? | Matt 27-28 | Resurrection |
+| Q097 | VISUAL | What is the shape of the clouds at the end? | Wispy / White | Detail |
+| Q098 | CHRONOLOGY | What is the very first scripture mentioned? | Matt 1-2 | Order |
+| Q099 | RELATIONAL | Which location has a "Discourse"? | Olivet Discourse | Prophecy |
+| Q100 | VISUAL | What symbol represents the Holy Spirit at the end? | A Dove | Symbols |
+Logic for Scaling to 1,000 Questions
+To reach the 1,000 count for a game engine, you can use these four logic templates to auto-generate the remaining 900 questions using the "Core Data Reference" table above:
+1. Relational Distance Logic (Approx. 300 Questions)
+ * Template: "Is [Location A] closer to the start of the path than [Location B]?"
+ * Example: "Is the Parable Patch closer to the start than the Last Supper Room?" (Answer: Yes).
+2. Sequence Math (Approx. 200 Questions)
+ * Template: "If you have visited [X] stops, and you are currently at [Location], how many stops are left?"
+ * Example: "If you are at the Jerusalem Gate (Stop 11), how many milestones remain until the end?" (Answer: 6).
+3. Compass Navigation Permutations (Approx. 250 Questions)
+ * Template: "In which cardinal direction must you travel to go from [Location A] to [Location B]?"
+ * Example: "To go from the Olivet Discourse to the Jerusalem Gate, which way do you look?" (Answer: North).
+4. Scripture Match-Ups (Approx. 150 Questions)
+ * Template: "True or False: [Location] is found in Matthew Chapter [Wrong Chapter]?"
+ * Example: "True or False: The Sermon on the Mount is found in Matthew 28?" (Answer: False).

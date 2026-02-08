@@ -1,0 +1,80 @@
+PRD: Bible Trivia Grid Game (BTS-Game)
+1. Product Overview
+Goal: Build a web-based, multiplayer Bible trivia game using Replit. The game utilizes a Jeopardy-style grid where questions are categorized by difficulty and point value.
+Target Audience: Groups, Sunday schools, or bible study circles.
+Core Stack: Python (Flask/Django) or Node.js, HTML/CSS/JS, Replit Database (or simple JSON storage).
+2. Game Setup & User Flow
+Phase 1: Initialization (Step 1)
+ * Landing Page: A simple setup screen.
+ * Inputs Required:
+   * Number of Players: Integer input.
+   * Player Identities: Dynamic text fields to enter Names or Nicknames for each player.
+   * Game Length: Input for "Number of Rounds" to play.
+ * Action: "Start Game" button initializes the Grid and sets Player 1 as the active player.
+Phase 2: The Grid (Step 2)
+ * Visual Layout: The board is a Grid containing 6 Columns.
+ * Grid Data Structure: Based on the source document, the grid must be rendered as follows:
+| Column Type | Difficulty | Category | Color Code | Row 1 Pts | Row 2 Pts | Row 3 Pts | Row 4 Pts | Row 5 Pts |
+|---|---|---|---|---|---|---|---|---|
+| Col 1 | Easy | Beginner | White | 1-10 | 11-20 | 21-30 | 31-40 | 41-50 |
+| Col 2 | Easy | Beginner | White | 51-70 | 71-90 | 91-110 | 111-130 | 131-150 |
+| Col 3 | Medium | Intermediate | Blue | 151-180 | 181-210 | 211-240 | 241-270 | 271-300 |
+| Col 4 | Medium | Intermediate | Blue | 301-340 | 341-380 | 381-420 | 421-460 | 461-500 |
+| Col 5 | Hard | Expert | Orange | 501-550 | 551-600 | 601-650 | 651-700 | 701-750 |
+| Col 6 | Hard | Expert | Orange | 751-810 | 811-870 | 871-930 | 931-990 | 991-1050 |
+ * Display Logic: Each tile on the grid should display a specific point value chosen from the allocated range (e.g., for Col 1/Row 1, display "10").
+ * Status Indicators: Tiles change state once played (e.g., grayed out or disabled).
+Phase 3: Gameplay Mechanics (Step 3)
+ * Turn Indication: The UI clearly highlights whose turn it is (e.g., "Current Player: John").
+ * Selection: The active player clicks a tile on the grid.
+ * Question Modal: A popup appears displaying:
+   * The Category and Point Value.
+   * The Question (derived from Bible verses, chapters, or books).
+   * Hidden Answer (visible only to a game master or validated by system input).
+ * Answer Handling:
+   * Correct: Player gets the points added to their score. The modal closes. Turn passes to next player.
+   * Incorrect (The Steal):
+     * Points are not awarded to the current player.
+     * Steal Trigger: The system prompts: "Wrong Answer! Opportunity to Steal."
+     * An opponent can be selected to answer. If they get it right, they win the points.
+ * Round Tracking: The system tracks the number of questions played.
+Phase 4: Game Over (Step 4)
+ * Trigger: The game ends when the input "Number of Rounds" is reached OR all tiles are cleared.
+ * Result Screen:
+   * Display a leaderboard sorted by total score.
+   * Highlight the Winner with a "Victory" animation/message.
+   * "Play Again" button.
+3. Technical Requirements
+A. Data Model (JSON Structure)
+The application needs a database of questions mapped to the categories in the source file. Use the following JSON schema:
+[
+  {
+    "id": 1,
+    "book": "Genesis",
+    "verse": "1:1",
+    "question": "What is the first sentence of the Bible?",
+    "answer": "In the beginning God created the heavens and the earth.",
+    "difficulty": "Easy",
+    "category": "Beginner",
+    "points_range": "1-10",
+    "assigned_points": 10
+  }
+]
+
+B. UI/UX Styling
+ * Color Palette: Strictly adhere to the source document for the columns:
+   * Beginner Columns: White background (Card text must be dark).
+   * Intermediate Columns: Blue background (Card text white).
+   * Expert Columns: Orange background (Card text white/black for contrast).
+ * Responsiveness: The Grid should scale to fit the screen; on mobile devices, columns may stack or scroll horizontally.
+C. Logic Constraints
+ * Randomization: If there are more questions in the database than slots on the grid, the system must randomly assign questions to the appropriate Difficulty/Point slots at game start.
+ * Point Parsing: The system must accept the ranges (e.g., "151-180") and assign a specific integer value for the score calculation (e.g., 150).
+4. Feature Checklist for Developer
+ * [ ] Create Player Input Form.
+ * [ ] Build Grid Generator dynamically based on the 6 columns defined in BTS-Game-Sheet.
+ * [ ] Implement logic to differentiate columns by Color (White, Blue, Orange).
+ * [ ] Implement Scoreboard (persistent on screen).
+ * [ ] Implement "Steal" logic (button to switch active answerer).
+ * [ ] Create "Game Over" summary logic.
+Would you like me to generate the code for the JSON question database (with some sample Bible questions) so you can upload that file to Replit immediately?

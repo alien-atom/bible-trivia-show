@@ -1,0 +1,242 @@
+Awesome idea. Below is a clear, execution-ready PRD for a Bible Quiz Web Application, written specifically so it can be built and deployed on Replit (simple stack, MVP-friendly, iterative).
+
+⸻
+
+Product Requirements Document (PRD)
+
+Product Name
+
+ScriptureQuest (working name)
+
+Product Type
+
+Web Application (MVP-first, Replit-friendly)
+
+Platform
+	•	Web (desktop + mobile responsive)
+	•	Hosted and deployed on Replit
+
+⸻
+
+Product Vision
+
+ScriptureQuest helps believers quiz themselves on different parts of Scripture in a fun, engaging, and spiritually enriching way. The app combines knowledge, memory, reflection, and application to encourage consistent engagement with the Bible.
+
+⸻
+
+Problem Statement
+
+Many believers want to grow in biblical knowledge but:
+	•	Lack structured, engaging self-assessment tools
+	•	Find traditional Bible quizzes repetitive or shallow
+	•	Struggle with consistency and motivation
+
+ScriptureQuest solves this by offering varied quiz types, progress tracking, and light gamification, without compromising reverence or simplicity.
+
+⸻
+
+Goals & Objectives
+
+Primary Goals
+	1.	Enable believers to quiz themselves across all parts of Scripture
+	2.	Support different learning styles (memory, logic, reflection)
+	3.	Encourage consistent engagement with Scripture
+	4.	Deliver a lightweight, deployable MVP on Replit
+
+Success Metrics
+	•	Daily/weekly active users
+	•	Quiz completion rate
+	•	Return usage (streaks)
+	•	Average quiz score improvement over time
+
+⸻
+
+Target Users
+	•	Individual believers
+	•	Teens, youth groups, and adults
+	•	Church members using personal devices
+
+⸻
+
+Key Features (MVP)
+
+1. User Accounts (Lightweight)
+	•	Sign up / login (email or username)
+	•	Guest mode allowed (no progress saved)
+	•	User profile stores:
+	•	Quiz history
+	•	Scores
+	•	Streaks
+
+⸻
+
+2. Scripture Quiz Categories
+
+Users can choose quizzes by:
+
+A. Bible Sections
+	•	Pentateuch
+	•	Historical Books
+	•	Wisdom & Poetry
+	•	Prophets
+	•	Gospels
+	•	Acts & Epistles
+	•	Revelation
+
+B. Quiz Types
+	•	Finish the Verse
+	•	Who Said It?
+	•	Book & Chapter Match
+	•	Timeline Order
+	•	Parables & Meanings
+	•	Bible Emoji Quiz
+	•	What Would You Do? (application-based)
+
+⸻
+
+3. Quiz Experience
+
+Quiz Flow
+	1.	User selects section + quiz type
+	2.	App generates 5–10 questions
+	3.	User answers (multiple choice / short answer)
+	4.	Immediate feedback (correct/incorrect)
+	5.	Quiz summary screen
+
+Question Types
+	•	Multiple choice
+	•	Drag-and-drop ordering
+	•	Fill-in-the-blank (non-strict matching)
+	•	Scenario-based reflection (no scoring, feedback only)
+
+⸻
+
+4. Progress & Gamification
+	•	Score per quiz
+	•	Daily streak counter
+	•	Badges:
+	•	“Berean” (study streak)
+	•	“Scripture Builder” (memory quizzes)
+	•	“Faithful Reader” (multiple sections)
+	•	No public leaderboards (privacy-first)
+
+⸻
+
+5. Scripture Data Handling
+	•	Scripture references only (book, chapter, verse)
+	•	Verse text displayed in limited length per question
+	•	Scripture stored locally or via API
+	•	No long copyrighted passages displayed at once
+
+⸻
+
+User Flows
+
+A. New User Flow
+	1.	Land on homepage
+	2.	Choose “Start Quiz”
+	3.	Select section and quiz type
+	4.	Take quiz
+	5.	Option to sign up to save progress
+
+B. Returning User Flow
+	1.	Login
+	2.	Resume streak
+	3.	Take quiz
+	4.	View progress dashboard
+
+⸻
+
+Admin / Content Management (Simple MVP)
+	•	Question bank stored in JSON
+	•	Categories and difficulty levels
+	•	Manual question creation (no CMS initially)
+
+⸻
+
+Technical Requirements (Replit-Friendly)
+
+Frontend
+	•	HTML, CSS, JavaScript
+	•	React or Vanilla JS (React preferred)
+	•	Mobile-first responsive layout
+
+Backend
+	•	Node.js + Express
+	•	REST endpoints:
+	•	/quiz
+	•	/questions
+	•	/results
+	•	Simple authentication (session or token-based)
+
+Database
+	•	SQLite or Replit DB
+	•	Tables:
+	•	Users
+	•	QuizAttempts
+	•	Questions
+
+⸻
+
+Non-Functional Requirements
+	•	Fast load times
+	•	Simple UI (no heavy animations)
+	•	Accessible design (contrast, readable fonts)
+	•	Secure handling of user data
+
+⸻
+
+Out of Scope (MVP)
+	•	Multiplayer battles
+	•	Live competitions
+	•	Payments or subscriptions
+	•	Social sharing
+	•	AI-generated questions
+
+⸻
+
+MVP Deliverables
+	•	Working quiz engine
+	•	At least 100 curated questions
+	•	User login + progress tracking
+	•	Deployed Replit web app
+	•	README with setup instructions
+
+⸻
+
+Roadmap (Post-MVP)
+	•	Daily verse quiz
+	•	Church/group mode
+	•	Department or group challenges
+	•	Audio questions
+	•	Offline mode
+
+⸻
+
+Guiding Principles
+	1.	Reverence – Scripture treated with respect
+	2.	Simplicity – Easy to use, easy to build
+	3.	Engagement – Fun without distraction
+	4.	Growth – Knowledge + application
+	5.	Privacy – No forced competition
+
+⸻
+
+Replit Readiness Checklist
+
+✅ Simple stack
+✅ JSON-based content
+✅ No external paid APIs
+✅ Easy to fork & extend
+✅ Clear MVP boundaries
+
+⸻
+
+If you want next, I can:
+	•	Generate sample quiz JSON
+	•	Create database schemas
+	•	Write starter code for Replit
+	•	Design UI wireframes
+	•	Create README.md for deployment
+
+Just tell me the next step 🚀
