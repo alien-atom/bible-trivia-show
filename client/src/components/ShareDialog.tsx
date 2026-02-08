@@ -23,6 +23,7 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
   const appUrl = typeof window !== 'undefined' ? window.location.origin : 'https://bibletriviashow.com';
 
   const modeLabel = gameMode === 'grid' ? 'Bible Trivia Grid Game' : gameMode === 'battle' ? 'Bible Trivia Battle' : 'Bible Trivia Show';
+  const shareUrl = gameMode === 'grid' ? `${appUrl}/grid-game` : gameMode === 'battle' ? `${appUrl}/battle` : appUrl;
   const emoji = percentage >= 80 ? '🏆' : percentage >= 60 ? '⭐' : '📖';
   const perfectTag = percentage === 100 ? '💯 Perfect score!' : '';
 
@@ -33,14 +34,14 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
     : `I just scored ${score} points (${percentage}% accuracy) on ${modeLabel}! Can you beat my score? Test your biblical knowledge now!`;
 
   const shareTextWithEmojis = gameMode === 'grid'
-    ? `${emoji} I scored ${score} points in the ${modeLabel}!${extraInfo ? ` ${extraInfo}` : ''} ${perfectTag} Challenge me: ${appUrl}/grid-game`
+    ? `${emoji} I scored ${score} points in the ${modeLabel}!${extraInfo ? ` ${extraInfo}` : ''} ${perfectTag} Challenge me: ${shareUrl}`
     : gameMode === 'battle'
-    ? `⚔️ I ${extraInfo || 'competed'} in a ${modeLabel} with ${score} points! ${perfectTag} Challenge me: ${appUrl}/battle`
-    : `${emoji} I scored ${score} points (${percentage}%) on ${modeLabel}! ${perfectTag} Challenge me: ${appUrl}`;
+    ? `⚔️ I ${extraInfo || 'competed'} in a ${modeLabel} with ${score} points! ${perfectTag} Challenge me: ${shareUrl}`
+    : `${emoji} I scored ${score} points (${percentage}%) on ${modeLabel}! ${perfectTag} Challenge me: ${shareUrl}`;
 
   const shareLinks = {
     twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareTextWithEmojis)}`,
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(appUrl)}&quote=${encodeURIComponent(shareText)}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`,
     whatsapp: `https://wa.me/?text=${encodeURIComponent(shareTextWithEmojis)}`,
   };
 
@@ -50,7 +51,7 @@ export function ShareDialog({ open, onOpenChange, score, totalQuestions, percent
         await navigator.share({
           title: `${modeLabel} - My Score`,
           text: shareText,
-          url: appUrl,
+          url: shareUrl,
         });
         toast({ title: 'Shared!', description: 'Thanks for spreading the word!' });
         onOpenChange(false);
