@@ -107,12 +107,12 @@ app.get("/api/auth/me", async (c) => {
       return c.json({ error: "User not found" }, 404);
     }
 
-    let country = null;
-    let territory = null;
+    let country: Awaited<ReturnType<typeof storage.getCountry>> | null = null;
+    let territory: Awaited<ReturnType<typeof storage.getTerritory>> | null = null;
     if (user.countryId) {
-      country = await storage.getCountry(user.countryId);
+      country = (await storage.getCountry(user.countryId)) ?? null;
       if (country) {
-        territory = await storage.getTerritory(country.territoryId);
+        territory = (await storage.getTerritory(country.territoryId)) ?? null;
       }
     }
 

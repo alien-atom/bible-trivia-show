@@ -327,6 +327,19 @@ export class WorkerStorage {
     return result.rows[0] as unknown as LeaderboardEntry | undefined;
   }
 
+  async getWaitingMatch(categoryId: string, excludeUserId: string): Promise<BattleMatch | undefined> {
+    const result = await this.db.execute(sql`
+      SELECT * FROM battle_matches 
+      WHERE category_id = ${categoryId} 
+        AND status = 'waiting' 
+        AND player1_id != ${excludeUserId}
+        AND player2_id IS NULL
+      ORDER BY created_at ASC
+      LIMIT 1
+    `);
+    return result.rows[0] as unknown as BattleMatch | undefined;
+  }
+
   async createBattleMatch(match: InsertBattleMatch): Promise<BattleMatch> {
     const result = await this.db.insert(battleMatches).values([match]).returning();
     return result[0];
