@@ -1,0 +1,67 @@
+2026-02-08T19:35:07.216Z	Initializing build environment...
+2026-02-08T19:35:07.216Z	Initializing build environment...
+2026-02-08T19:35:08.840Z	Success: Finished initializing build environment
+2026-02-08T19:35:09.331Z	Cloning repository...
+2026-02-08T19:35:13.791Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2026-02-08T19:35:13.792Z	Restoring from dependencies cache
+2026-02-08T19:35:13.795Z	Restoring from build output cache
+2026-02-08T19:35:13.893Z	Installing project dependencies: npm clean-install --progress=false
+2026-02-08T19:35:18.102Z	npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+2026-02-08T19:35:18.165Z	npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+2026-02-08T19:35:25.055Z	
+2026-02-08T19:35:25.056Z	added 500 packages, and audited 501 packages in 11s
+2026-02-08T19:35:25.056Z	
+2026-02-08T19:35:25.056Z	48 packages are looking for funding
+2026-02-08T19:35:25.056Z	  run `npm fund` for details
+2026-02-08T19:35:25.069Z	
+2026-02-08T19:35:25.069Z	4 moderate severity vulnerabilities
+2026-02-08T19:35:25.070Z	
+2026-02-08T19:35:25.070Z	To address all issues (including breaking changes), run:
+2026-02-08T19:35:25.070Z	  npm audit fix --force
+2026-02-08T19:35:25.071Z	
+2026-02-08T19:35:25.071Z	Run `npm audit` for details.
+2026-02-08T19:35:25.393Z	Executing user build command: npm run build
+2026-02-08T19:35:25.678Z	
+2026-02-08T19:35:25.678Z	> bible-trivia-show@1.0.0 build
+2026-02-08T19:35:25.679Z	> tsx script/build.ts
+2026-02-08T19:35:25.679Z	
+2026-02-08T19:35:26.437Z	building client...
+2026-02-08T19:35:26.617Z	vite v7.1.12 building for production...
+2026-02-08T19:35:26.852Z	transforming...
+2026-02-08T19:35:31.169Z	✓ 2287 modules transformed.
+2026-02-08T19:35:31.901Z	rendering chunks...
+2026-02-08T19:35:31.915Z	[meta-images] no Replit deployment domain found, skipping meta tag updates
+2026-02-08T19:35:31.920Z	computing gzip size...
+2026-02-08T19:35:34.222Z	../dist/public/index.html                                                1.43 kB │ gzip:   0.62 kB
+2026-02-08T19:35:34.223Z	../dist/public/assets/playful_3d_bible_study_composition-XBGHrdiw.png  848.78 kB
+2026-02-08T19:35:34.223Z	../dist/public/assets/index-CyvV2P-I.css                               164.25 kB │ gzip:  23.33 kB
+2026-02-08T19:35:34.223Z	../dist/public/assets/index-B2Om2vzr.js                                959.98 kB │ gzip: 274.02 kB
+2026-02-08T19:35:34.223Z	✓ built in 7.41s
+2026-02-08T19:35:34.223Z	building server...
+2026-02-08T19:35:34.223Z	
+2026-02-08T19:35:34.223Z	(!) Some chunks are larger than 500 kB after minification. Consider:
+2026-02-08T19:35:34.223Z	- Using dynamic import() to code-split the application
+2026-02-08T19:35:34.223Z	- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2026-02-08T19:35:34.223Z	- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2026-02-08T19:35:34.410Z	
+2026-02-08T19:35:34.410Z	  dist/index.cjs  1.2mb ⚠️
+2026-02-08T19:35:34.410Z	
+2026-02-08T19:35:34.410Z	⚡ Done in 184ms
+2026-02-08T19:35:34.619Z	Success: Build command completed
+2026-02-08T19:35:35.003Z	Executing user deploy command: npx wrangler deploy
+2026-02-08T19:35:41.338Z	npm warn exec The following package was not found and will be installed: wrangler@4.63.0
+2026-02-08T19:35:50.157Z	
+2026-02-08T19:35:50.158Z	 ⛅️ wrangler 4.63.0
+2026-02-08T19:35:50.158Z	───────────────────
+2026-02-08T19:35:50.186Z	
+2026-02-08T19:35:50.186Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-02-08T19:35:50.187Z	
+2026-02-08T19:35:50.276Z	✘ [ERROR] The entry-point file at "dist/worker.js" was not found.
+2026-02-08T19:35:50.276Z	
+2026-02-08T19:35:50.276Z	  
+2026-02-08T19:35:50.277Z	  This might mean that your entry-point file needs to be generated (which is the general case when a framework is being used).
+2026-02-08T19:35:50.277Z	  If that's the case please run your project's build command and try again.
+2026-02-08T19:35:50.277Z	
+2026-02-08T19:35:50.277Z	
+2026-02-08T19:35:50.338Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-02-08_19-35-49_600.log"
+2026-02-08T19:35:52.208Z	Failed: error occurred while running deploy command
