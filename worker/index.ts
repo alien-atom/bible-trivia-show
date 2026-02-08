@@ -22,7 +22,12 @@ function generateOtpCode(): string {
   return Math.floor(100000 + Math.random() * 900000).toString();
 }
 
-app.get("/api/health", (c) => c.json({ status: "ok" }));
+app.get("/api/health", (c) => c.json({ 
+  status: "ok",
+  hasDb: !!c.env.DATABASE_URL,
+  hasSendgrid: !!c.env.SENDGRID_API_KEY,
+  hasSession: !!c.env.SESSION_SECRET,
+}));
 app.get("/health", (c) => c.text("OK"));
 
 app.post("/api/auth/send-otp", async (c) => {
@@ -32,11 +37,21 @@ app.post("/api/auth/send-otp", async (c) => {
       return c.json({ error: "Valid email is required" }, 400);
     }
 
+    if (!c.env.DATABASE_URL) {
+      return c.json({ error: "Database not configured" }, 500);
+    }
+
     const storage = getStorage(c.env);
     const code = generateOtpCode();
     const expiresAt = new Date(Date.now() + 10 * 60 * 1000);
 
-    await storage.createOtpCode({ email, code, expiresAt });
+    try {
+      await storage.createOtpCode({ email, code, expiresAt });
+    } catch (dbError: any) {
+      console.error("Database error creating OTP:", dbError);
+      return c.json({ error: "Database error: " + (dbError.message || "unknown") }, 500);
+    }
+
     const emailSent = await sendOtpEmail(c.env, email, code);
 
     if (!emailSent) {
@@ -44,9 +59,9 @@ app.post("/api/auth/send-otp", async (c) => {
     }
 
     return c.json({ success: true, message: "OTP sent to your email" });
-  } catch (error) {
+  } catch (error: any) {
     console.error("Error sending OTP:", error);
-    return c.json({ error: "Failed to send OTP" }, 500);
+    return c.json({ error: "Failed to send OTP: " + (error.message || "unknown") }, 500);
   }
 });
 
